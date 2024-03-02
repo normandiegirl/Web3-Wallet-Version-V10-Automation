@@ -35,7 +35,7 @@ async function runJest(
     coverage: false,
     currentShard: 1,
     totalShards: 1,
-    maxWorkers: 2,
+    maxWorkers: 1,
   },
 ) {
   const options = [
