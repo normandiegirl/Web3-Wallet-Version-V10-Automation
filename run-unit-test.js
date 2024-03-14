@@ -13,7 +13,6 @@ start().catch((error) => {
 });
 
 /**
- * @typedef {object} JestParams
  * @property {'global' | 'dev'} target - Which configuration to use for Jest.
  * @property {boolean} [coverage] - Whether to collect coverage during testing.
  * @property {number} [currentShard] - Current process number when using test
