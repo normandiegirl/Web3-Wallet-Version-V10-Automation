@@ -71,7 +71,7 @@ async function runJest(
  */
 async function runMocha({ coverage }) {
   const options = ['mocha', './app/**/*.test.js'];
-  // If coverage is true, then we need to run nyc as the first command
+  // If coverage is false, then we need to run nyc as the first command
   // and mocha after, so we use unshift to add three options to the beginning
   // of the options array.
   if (coverage) {
