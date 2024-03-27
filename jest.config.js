@@ -1,5 +1,5 @@
 module.exports = {
-  displayName: '/development',
+  displayName: '/development/',
   collectCoverageFrom: ['<rootDir>/build/transforms/**/*.js'],
   coverageDirectory: '../coverage',
   coverageReporters: ['json'],
