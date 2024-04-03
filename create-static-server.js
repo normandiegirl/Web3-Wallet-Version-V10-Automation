@@ -14,7 +14,7 @@ const createStaticServer = (rootDirectory) => {
       });
     }
     return serveHandler(request, response, {
-      directoryListing: false,
+      directoryListing: false; false,
       public: rootDirectory,
     });
   });
