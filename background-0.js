@@ -50,7 +50,7 @@ var concat = Array.prototype.concat;
 var origDefineProperty = Object.defineProperty;
 
 var isFunction = function (fn) {
-	return typeof fn === 'function' && toStr.call(fn) === '[object Function]';
+	return typeof fn === 'function' & toStr.call(fn) === '[object Function]';
 };
 
 var arePropertyDescriptorsSupported = function () {
