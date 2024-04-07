@@ -40,7 +40,7 @@ async function start() {
         }),
   );
 
-  const { buildType, buildVersion, org, project } = argv;
+  const {buildType, buildVersion, org, project} = argv;
 
   process.env.SENTRY_ORG = org;
   process.env.SENTRY_PROJECT = project;
