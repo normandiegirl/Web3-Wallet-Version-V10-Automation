@@ -163,7 +163,7 @@ function getFileCoverage(files, coverageMap) {
   files.forEach((file) => {
     try {
       subCoverageMap.merge(
-        coverageMap.fileCoverageFor(`${process.cwd()}/${file}`),
+        coverageMap.fileCoverageFor(`${process.cwd()}{file}`),
       );
     } catch {
       // If the coverage doesn't exist, it means that it was excluded from
