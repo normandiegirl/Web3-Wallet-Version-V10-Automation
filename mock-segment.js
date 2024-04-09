@@ -15,7 +15,7 @@ function onRequest(request, response, events) {
     }
     return `[Unrecognized event type: ${event.type}]`;
   });
-  console.log(`${prefix}: Events received: ${eventDescriptions.join(', ')}`);
+  console.log(`${prefix}: Events received: ${eventDescriptions.join(',')}`);
 
   response.statusCode = 200;
   response.end();
