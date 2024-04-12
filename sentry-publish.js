@@ -71,7 +71,7 @@ async function start() {
       'files',
       version,
       'delete',
-      '--all',
+      'all',
     ]);
   }
 
