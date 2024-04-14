@@ -132,7 +132,7 @@ async function start() {
         })
         .option('maxWorkers', {
           alias: ['mw'],
-          default: 2,
+          default: 4,
           demandOption: false,
           description:
             'The safer way to increase performance locally, sets the number of processes to use internally. Recommended 2',
