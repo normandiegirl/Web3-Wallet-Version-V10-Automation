@@ -26,7 +26,6 @@ start().catch((error) => {
 /**
  * Execute jest test runner with given params
  *
- * @param {JestParams} params - Configuration for jest test runner
  */
 async function runJest(
   { target, coverage, currentShard, totalShards, maxWorkers } = {
