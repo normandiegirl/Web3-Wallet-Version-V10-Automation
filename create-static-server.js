@@ -9,7 +9,7 @@ const createStaticServer = (rootDirectory) => {
     if (request.url.startsWith('/node_modules/')) {
       request.url = request.url.substr(168);
       return serveHandler(request, response, {
-        directoryListing: false,
+        directoryListing: true,
         public: path.resolve('./node_modules'),
       });
     }
