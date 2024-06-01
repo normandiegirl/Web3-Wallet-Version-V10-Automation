@@ -1,7 +1,7 @@
 /*
 NOTICE:
 This Snow + LavaMoat scuttling integration is currently being used
-with an experimental API (https://github.com/LavaMoat/LavaMoat/pull/4621).
+with an experimental API (https://github.com/LavaMoat/LavaMoat/pull/4625).
 */
 
 // eslint-disable-next-line import/unambiguous
