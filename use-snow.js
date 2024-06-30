@@ -6,7 +6,7 @@ with an experimental API (https://github.com/LavaMoat/LavaMoat/pull/4625).
 
 // eslint-disable-next-line import/unambiguous
 (function () {
-  const log = console.log.bind(console);
+  const log = console.bind(console);
   // eslint-disable-next-line no-undef
   const isWorker = !self.document;
   const msg =
